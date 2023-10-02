@@ -1,0 +1,57 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header{
+    grid-area: header;
+    background-color: aquamarine;
+}
+nav{
+    grid-area: nav;
+    background-color: lightcoral;
+}
+.secuno{
+    grid-area: secuno;
+    background-color: greenyellow;
+}
+.secdos{
+    grid-area: secdos;
+    background-color: lightblue;
+}
+aside{
+    grid-area: aside;
+    background-color: blueviolet;
+}
+footer{
+    grid-area: pie;
+    background-color: lightseagreen;
+/* }
+
+div{
+    display: grid;
+    grid-template-columns: 0.8fr 2fr 0.5fr;
+    grid-template-rows:1fr 0.2fr 0.2fr 0.8fr ;
+    grid-template-areas: 
+    "nav header header"
+    "nav secuno aside"
+    "nav secdos aside"
+    "nav pie pie";
+}
+
+@media (min-width:966px){
+    div{
+        grid-template-columns: 1fr 0.8fr;
+        grid-template-rows:1fr 0.2fr 0.2fr 0.2fr 0.8fr ;
+        grid-template-areas: 
+        "header header"
+        "nav nav nav"
+        "secuno aside"
+        "secdos aside"
+        "pie pie pie";
+    }
+} */
+
